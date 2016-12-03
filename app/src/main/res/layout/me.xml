@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	android:weightSum="1">
+    
+    <TextView 
+        android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="我累计完成的工作查询"
+		android:textSize="30sp"
+		android:layout_weight="0.05" />
+
+	<TextView
+		android:text="工程一  （完成）"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView2"
+		android:layout_weight="0.05"
+		android:textSize="20sp" />
+
+	<TextView
+		android:text="工程二  （完成）"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView2"
+		android:layout_weight="0.05"
+		android:textSize="20sp" />
+
+	<TextView
+		android:text="工程三 （90%）"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView2"
+		android:layout_weight="0.05"
+		android:textSize="20sp" />
+
+	<ProgressBar
+		style="?android:attr/progressBarStyleHorizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/progressBar2"
+		android:layout_weight="0.05" />
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="其他工程任务"
+		android:textSize="30sp"
+		android:layout_weight="0.05" />
+
+	<TextView
+		android:text="工程一  即将开始"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView2"
+		android:layout_weight="0.05"
+		android:textSize="20sp" />
+
+	<TextView
+		android:text="工程二  后天开始"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView2"
+		android:layout_weight="0.05"
+		android:textSize="20sp" />
+
+	<TextView
+		android:text="工程三 下个月一号"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView2"
+		android:layout_weight="0.05"
+		android:textSize="20sp" />
+
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	android:weightSum="1">
+
+	<TextView
+        android:layout_height="45dp"
+		android:layout_width="match_parent"
+		android:text="首页展示工程项目信息"
+		android:textSize="20sp" />
+
+	<FrameLayout
+		android:layout_width="match_parent"
+		android:layout_height="67dp">
+
+		<TextView
+            android:layout_height="41dp"
+            android:layout_width="match_parent"
+            android:text="    项目进度展示"
+            android:textSize="15sp"
+              android:layout_weight="0.04" />
+	</FrameLayout>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:weightSum="1">
+
+		<CheckBox
+			android:text="是否完成工程一"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/checkBox"
+			android:checked="false" />
+
+		<CheckBox
+			android:text="是否完成工程二"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/checkBox2" />
+
+		<ProgressBar
+			style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/progressBar"
+			android:layout_weight="0.09" />
+
+		<TextView
+			android:text="完成项目进度"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/textView"
+			android:layout_weight="0.05"
+			android:textSize="30sp" />
+
+		<SeekBar
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/seekBar3"
+			android:layout_weight="0.09" />
+
+		<SeekBar
+			style="@style/Widget.AppCompat.SeekBar.Discrete"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:max="10"
+			android:progress="3"
+			android:id="@+id/seekBar2"
+			android:layout_weight="0.15" />
+
+	</LinearLayout>
+
+
+</LinearLayout>
